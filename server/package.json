@@ -1,0 +1,16 @@
+{
+  "name": "mira-road-digital-twin-backend",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Backend API service and HERE Traffic adapter for Mira Road Digital Twin",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  }
+}
